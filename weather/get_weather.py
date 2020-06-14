@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 import re
-from classes import *
+from .classes import *
 from numpy.random import randint
 from math import sin, cos, pi
 

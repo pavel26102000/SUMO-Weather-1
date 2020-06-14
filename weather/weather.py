@@ -1,8 +1,8 @@
 import sys
 import os
 import xml.etree.ElementTree as ET
-from get_weather import get_weather
-from classes import *
+from .get_weather import get_weather
+from .classes import *
 from pyllist import *
 
 if 'SUMO_HOME' in os.environ:

@@ -27,9 +27,7 @@ import optparse
 import random
 
 # path to weather
-sys.path.insert(1,
-                '/Users/rototo/Desktop/project/weather')
-from weather import weather_main
+from weather.weather import weather_main
 
 # we need to import python modules from the $SUMO_HOME/tools directory
 if 'SUMO_HOME' in os.environ:
